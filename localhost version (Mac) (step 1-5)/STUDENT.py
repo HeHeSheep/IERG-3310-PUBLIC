@@ -4,7 +4,7 @@ import time
 
 
 localhost = '' 
-server_IP = '' # setting IP address
+server_IP = 'localhost' # setting IP address
 port = 3310  #port number to connect to
 
 print ("Creating s_1")
