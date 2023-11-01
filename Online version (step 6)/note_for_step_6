@@ -1,11 +1,3 @@
-Server: Samsung notebook 
-LAN IP addr: 192.168.50.62
-Wifi IP addr: 192.168.50.25
-
-Client: Macbook
-IP addr: 192.168.50.87
-
-
 Date & time : 1/11 3:55
 ---------------------------------------------------------------------------
 OSError                                   Traceback (most recent call last)
@@ -27,5 +19,5 @@ Date & time : 1/11 4:44
 Copied codes in step 6 back to step 1-5, and it works.
 Test of step 1-5 and 6 completed.
 Step 1-5: On Macbook
-Step 6: Samsung notebook is the server, Macbook is the client.
+Step 6: Samsung (Windows) notebook is the server, Macbook is the client.
 ---------------------------------------------------------------------------
