@@ -1,0 +1,5 @@
+ON Mac: localhost can be '' in student.py
+server side will crash after fully run. 
+
+ON Window: localhost must be actual IP address in student.py
+Server side and client side will not crash

@@ -1,0 +1,31 @@
+Server: Samsung notebook 
+LAN IP addr: 192.168.50.62
+Wifi IP addr: 192.168.50.25
+
+Client: Macbook
+IP addr: 192.168.50.87
+
+
+Date & time : 1/11 3:55
+---------------------------------------------------------------------------
+OSError                                   Traceback (most recent call last)
+/HeHeSheep/IERG3310-project/Online version (step 6)/STUDENT.py in <cell line: 53>()
+     51 addr = (auto_serverIP, int(eeeee))
+     52 s_3 = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
+---> 53 s_3.bind(addr)
+     55 # send a message to the server
+     56 message = random.randint(6, 9) #send a random variable 5<num<10
+
+OSError: [Errno 49] Can't assign requested address
+
+Solution: Tricky solution: bind on all IP address, e.g. '0.0.0.0'
+---------------------------------------------------------------------------
+Date & time : 1/11 4:43
+Step 6 completed with a tricky method, but it works. Details at line 20 of this file.
+---------------------------------------------------------------------------
+Date & time : 1/11 4:44
+Copied codes in step 6 back to step 1-5, and it works.
+Test of step 1-5 and 6 completed.
+Step 1-5: On Macbook
+Step 6: Samsung notebook is the server, Macbook is the client.
+---------------------------------------------------------------------------
